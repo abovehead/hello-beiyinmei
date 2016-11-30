@@ -1,0 +1,401 @@
+
+body,ul,li,div,span,a,p{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	text-decoration-color:#666;
+}
+/*顶部样式*/
+#top{
+	width: 1003px;
+	height: 82px;
+	margin: 0 auto;
+	background: url(images/top_b.jpg) no-repeat;
+	font-size:12px;
+	position: relative;
+}
+#top p{
+	float: right;
+	color: white;
+	position: absolute;
+	top: 5px;
+	right: 50px;
+}
+#top a{
+	margin: 3px;
+	color: white;
+}
+#top a:hover{
+	color: #009DE4;
+}
+/*导航条样式 nav*/
+
+#nav{
+	width: 1003px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#nav li{
+	float: left;
+	width: 123px;
+	height: 30px;
+	line-height: 30px;
+	text-align:center; 
+	margin-right: 2px;
+	background-color: #E5E5E5;
+	text-decoration-color:#666;
+	font-size: 12px;
+	color: #666;
+}
+#nav a{
+	color: #616161;
+}
+#nav li:hover{
+	background-image: linear-gradient(to top,#128fbb,#51bdec);
+}
+#nav li a:hover{
+	color: #fff;
+}
+
+/*轮播图区域*/
+.show{display: block;}
+.hide{display: none;}
+.swfContent{
+	width: 1440px;
+	
+	margin: 0 auto;
+ 	position: relative;
+}
+.swfContent img{
+	width: 1440px;
+}
+#banner{
+	overflow: hidden;
+}
+#banner ul{
+	width: 1100px;
+	overflow: hidden;
+	position: absolute;
+	bottom: -2px;
+	left: 135px;
+
+
+}
+#banner li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 12px;
+	/*text-align: center;
+	border: 1px solid #fff;*/
+}
+/*#banner li a{
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	padding: 8px 56px;
+	color: #000;
+	background-color: #fff;
+	
+
+}*/
+#banner li a{
+	display: block;
+	width: 200px;
+	height: 40px;
+}
+#banner .dimianxitong{
+	background:url(images/g11.png);
+}
+#banner .wudingxitong{
+	background:url(images/r11.png);
+}
+#banner .BIPV{
+	background:url(images/b11.png);
+}
+#banner .genzongxitong{
+	background:url(images/t11.png);
+}
+#banner .shipinzhongxin{
+	background:url(images/b55.png);
+}
+#info{
+	width: 1003px;
+	height: 386px;
+	border-bottom: 1px solid #ddd;
+	margin: 50px auto;
+}
+#info span{
+	font-size: 14px;
+	color: #009DE4;
+}
+#introduction b{
+	display: block;
+	width: 240px;
+	border-bottom: 1px dotted;
+	margin-top: 4px;
+}
+#introduction{
+	width: 240px;
+	height: 386px;
+	float: left;
+	
+}
+#introduction div{
+	margin-top: 8px;
+	font-size: 12px;
+	line-height: 28px; 
+	color: #717171;
+}
+#production{
+	width: 400px;
+	height: 386px;
+	float: left;
+	margin: 0 20px 0 40px;
+}
+#production b{
+	display: block;
+	width: 400px;
+	border-bottom: 1px dotted;
+	margin-top: 4px;
+}
+#production img {
+	margin-top:20px;
+}
+#contact{
+	width: 300px;
+	height: 386px;
+	float: left;
+	
+}
+#contact b{
+	display: block;
+	width: 300px;
+	border-bottom: 1px dotted;
+	margin-top: 4px;
+}
+#contact li{
+	margin-top: 8px;
+	font-size: 14px	;
+	color: #717171;
+	line-height: 24px;
+}
+#contact img{
+	width: 99px;
+	height: 101px;
+	border: 1px solid #ddd;
+	margin: 20px 20px;
+}
+footer{
+	height: 20px;
+	background-color: #333333;
+	margin-top: 20px;
+}
+#footer{
+	width: 1003px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #fff;
+}
+#footer div{
+	float: left;
+}
+#footer img{
+	margin-bottom: -5px;
+	margin-right: 5px;
+}#footer a{
+	margin-left: 30px;
+	color: #fff;
+}
+#footer span{
+	margin-left: 90px;
+}
+
+
+/*about_me分页*/
+#about{
+	width:1003px;
+	height: 600px;
+	margin: 30px auto;
+	overflow: hidden;
+
+}
+#about_list{
+	float: left;
+}
+#about_list li{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ddd;
+	margin-top: 5px;
+	text-align: left;
+}
+#Us{
+	color: #fff;
+}
+#about_list  a{
+	display: block;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+#about_list a:hover{
+	background-color: #000;
+	color: #fff;
+	width: 160px;
+}
+
+
+#about_me, #friends, #people, #solution,#technology,#project{
+	float: left;
+	width: 760px;
+	margin: 15px 0 0 20px;
+	
+}
+.friendsImg{
+	margin-top: 20px;
+}
+.about_top{
+	width: 760px;
+	height: 30px;
+	line-height: 22px;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+
+}
+#swfContent_aboutMe {
+	width: 1440px;
+	
+	margin: 0 auto;
+}
+#about_me div,#friends div,#people div, #solution div, #technology div, #project div{
+	float: left;
+	margin-right: 20px;
+}
+
+#about_me li, #people li{
+	margin-top: 50px;
+	font-size: 14px;
+	color: #6b6b6b;
+}
+#about_me li div {
+	width: 450px;
+	height: 180px;	
+	float: right;
+}
+#people li div{
+	width: 500px;
+	height: 180px;	
+	float: right;
+}
+/*people分页*/
+#friends,#people{
+	display: none;
+}
+/*贴心服务*/
+.section_content{
+	width: 1003px;
+	
+	margin: 30px auto;
+	overflow: hidden;
+}
+.service_list{
+	float: left;
+}
+.service_list li{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ddd;
+	margin-top: 5px;
+	text-align: left;
+}
+.service_list a{
+	display: block;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: 12px;
+}
+.service_list a:hover{
+	background-color: #000;
+	color: #fff
+}
+.text{
+	margin: 20px 0 0 20px;
+}
+.text span{
+	display: block;
+	padding: 14px 0 10px 0;
+	text-indent: 2em;
+	color: #787878;
+	font-size: 12px;
+}
+.text div{
+	
+	color: #787878;
+	font-size: 12px;
+}
+
+/*联系我们*/
+#connection {
+	width: 1003px;
+	height: 470px;
+	margin: 0 auto;
+	padding: 85px 0 0 70px;
+}
+#connection div{
+	width: 498px;
+	height: 300px;
+	float: left;
+}
+#connection div:first-child{
+	border-right: 1px solid #ddd;
+}
+#conn_left input{
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#conn_left textarea{
+	width: 250px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#connection button{
+	display: block;
+	margin-left: 345px;
+	margin-top: 15px;
+}
+#conn_right p{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
